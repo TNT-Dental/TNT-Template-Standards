@@ -24,3 +24,6 @@ Coding Standards for TNT Websites
 	<meta name="apple-mobile-web-app-title" content="" />
 </head>
 ```
+### Header IDs & Classes
+
+### Footer IDs & Classes
