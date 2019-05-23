@@ -1,10 +1,6 @@
 # TNT-Template
 Coding Standards for TNT Websites
 
-**Table of Contents**
-
-[TOC]
-
 ### HEAD HTML
 
 ```html
