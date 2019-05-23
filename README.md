@@ -28,8 +28,8 @@ Coding Standards for TNT Websites
 | ID or Class | Description                    |
 | ------------- | ------------------------------ |
 | `#fixed-tabs` | Scrolling side buttons |
-| `.ra`   | For Request Appointment button |
-| `.fm`   | For Patient Forms button |
+| `.ra`   | For request an appointment button |
+| `.fm`   | For patient forms button |
 
 ### Header
 | ID or Class | Description                    |
