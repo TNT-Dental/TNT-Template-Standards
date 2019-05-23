@@ -18,331 +18,90 @@
 	<link rel="icon" alt="Favicon" href="assets/images/favicon.png"/>			
 	<meta name="apple-mobile-web-app-title" content="" />
 </head>
-	<body class="page_$var(pageURL)$">
-		<div id="fixed-tabs">
-			<a href="request-an-appointment.html" class="ra">
-				<span><i class="icon-calendar-1"></i> <b>Request</b></span>
-				<span>Request an Appointment</span>
-			</a>			
-			<a href="" class="fm">
-				<span><i class="icon-doc-text"></i> <b>Forms</b></span>
-				<span>Complete Our Forms</span>
-			</a>
-			<a href="" target="_blank" class="fb">
-				<span><i class="icon-facebook"></i> <b>Find Us</b></span>
-				<span>Like Us on Facebook</span>
-			</a>
-			<a href="" target="_blank" class="gp">
-				<span><i class="icon-gplus"></i> <b>Reviews</b></span>
-				<span>Leave a Google Review</span>
-			</a>
-			<a class="call" href="tel:"><i class="icon-phone"></i> <b>Call</b></a>
-			<a class="map" href="" target="_blank"><i class="icon-map"></i> <b>Map</b></a>
+<body class="page_$var(pageURL)$">
+	<div id="fixed-tabs">
+		<a href="request-an-appointment.html" class="ra">
+			<span><i class="icon-calendar-1"></i> <b>Request</b></span>
+			<span>Request an Appointment</span>
+		</a>			
+		<a href="" class="fm">
+			<span><i class="icon-doc-text"></i> <b>Forms</b></span>
+			<span>Complete Our Forms</span>
+		</a>
+		<a href="" target="_blank" class="fb">
+			<span><i class="icon-facebook"></i> <b>Find Us</b></span>
+			<span>Like Us on Facebook</span>
+		</a>
+		<a href="" target="_blank" class="gp">
+			<span><i class="icon-gplus"></i> <b>Reviews</b></span>
+			<span>Leave a Google Review</span>
+		</a>
+		<a class="call" href="tel:"><i class="icon-phone"></i> <b>Call</b></a>
+		<a class="map" href="" target="_blank"><i class="icon-map"></i> <b>Map</b></a>
+	</div>
+	<header>
+		<div id="hd-top"></div>
+		<div id="hd-contents" class="flex-ed">				
+		<a href="index.html" class="logo"></a>				
+		<div id="hd-info">
+			<address><a href="" target="_blank"></a></address>					
+			<a href="tel:" class="phone"></a>								
 		</div>
-		<header>
-			<div id="hd-top">Open 7 AM to 7 PM • Saturday Appointments • Dental Emergencies Welcome</div>
-			<div id="hd-contents" class="flex-ed">				
-				<a href="index.html" class="logo"><!-- <img src="assets/images/logo.png" /><--></--> Logo</a>				
-				<div id="hd-info">
-					<address><a href="" target="_blank">123 Avenue Ln <span>State, Zip</span></a></address>					
-					<a href="tel:" class="phone">(000) 000-0000</a>								
-				</div>
-				<div id="hd-btns">
-					<a href="" class="btn-ra">Request an Appointment</a>
-					<a href="" class="btn-rp">Refer a patient</a>
-					<a href="" class="btn-fm">Forms</a>
-				</div>
-			</div>			
-			<nav id="main-nav">
-					<!-- [cms:buildnav start=null levels=*][level]<ul>[item]<li><a href="$pageURL$" title="$hrefTitle$">$pageName$</a></li>[/item]</ul>[/level][/cms:buildnav] -->
+		<div id="hd-btns">
+			<a href="" class="btn-ra"></a>
+			<a href="" class="btn-rp"></a>
+			<a href="" class="btn-fm"></a>
+		</div>
+		</div>			
+		<nav id="main-nav">
+			<!-- [cms:buildnav start=null levels=*][level]<ul>[item]<li><a href="$pageURL$" title="$hrefTitle$">$pageName$</a></li>[/item]</ul>[/level][/cms:buildnav] -->
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Our Services</a>
 					<ul>
-						<li><a href="">Home</a></li>
-						<li><a href="">About Us</a></li>
-						<li><a href="">Our Services</a>
-							<ul><li><a href="">Cosmetic</a></li>
-							<li><a href="">Restorative</a></li>
-							<li><a href="">Preventive</a></li></ul>
-						</li>
-						<li><a href="">For Patients</a></li>
-						<li><a href="">Reviews</a></li>
-						<li><a href="">Contact Us</a></li>
+					<li><a href="">Cosmetic</a></li>
+					<li><a href="">Restorative</a></li>
+					<li><a href="">Preventive</a></li>
 					</ul>
-				</nav>
-		</header>
-		<!-- $section(beflow-header)$ -->
-		<section id="page">	
-			<div id="page-title">
-				<div class="title-wrapper"></div>
+				</li>
+				<li><a href="">For Patients</a></li>
+				<li><a href="">Reviews</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="page">	
+		<div id="page-title"></div>
+		<article class="clearfix container">
+			<!-- $section(body)$ -->
+		</article>
+	</section>	
+	<!-- $section(above-footer)$ -->
+	<footer>			
+		<div id="fo-contents"> 				
+			<div id="fo-info">
+				<a href="tel:" class="phone"></a>										
+				<address><a href="" target="_blank"></a></address>
+				<span class="social">
+					<a href="" target="_blank" class="fb"><i class="icon-facebook"></i></a>
+					<a href="" target="_blank" class="gp"><i class="icon-gplus"></i></a>				
+					<a href="" target="_blank" class="yp"><i class="icon-yelp"></i></a>				
+					<a href="" target="_blank" class="tw"><i class="icon-twitter"></i></a>
+				</span>
 			</div>
-			<article class="clearfix container"><!-- $section(body)$ -->
-				<h1>Header 1</h1>
-				<h2 id="append">Header 2 with Append</h2>				
-				<h2>Header 2</h2>
-				<h3>Header 3</h3>
-				<h4>Header 4</h4>				
-				<hr />
+			<nav>
+			<span class="fo-title">Featured Dental Services</span>
+			<ul>
 
-				<div class="clearfix">				
-				<h2>Dr. Brian L. Eck</h2>							
-				<p><img src="assets/_images/about-dr.jpg" class="elem-left" /></p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
-				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-				</div>			
-				
-				<h1>Docs Landing</h1>				
-				<div id="drs-landing" class="flex-ed">
-					<a href="">
-						<figure><img src="assets/_images/about-dr.jpg" /></figure>
-						<span class="btn">Doc 1</span>	
-					</a>
-					<a href="">
-						<figure><img src="assets/_images/about-dr.jpg" /></figure>
-						<span class="btn">Doc 2</span>
-					</a>
-					<a href="">
-						<figure><img src="assets/_images/about-dr.jpg" /></figure>
-						<span class="btn">Doc 2</span>
-					</a>
-				</div>	
-
-				<h3>Bulleted List</h3>
-				<ul>
-					<li>Check-ups &amp; Cleanings</li>
-					<li>Dental Sealants</li>
-					<li>Therapy for Bruxism/TMJ</li>
-					<li>Sportsguards</li>
-				</ul>
-
-				<h1>Request an Appointment</h1>
-				<form action="https://tnt-adder.herokuapp.com/submit/" class="forms" method="post">				
-				<div class="inline">
-					<div><label>Name</label> <input name="Name" placeholder="John Smith" required="true" type="text" /></div>
-					<div><label>Phone Number</label> <input name="Phone" placeholder="(555)-555-5555" type="text" /></div>
-					<div><label>Email Address</label> <input name="email" placeholder="john@smith.com" required="true" type="email" /></div>
-				</div>
-				<div class="inline inline-box">
-					<div>
-						<label>Are you...</label> 
-						<span><input name="PatientType[]" value="New" type="checkbox" /> A New Patient </span>
-						<span><input name="PatientType[]" value="Existing" type="checkbox" /> An Existing Patient</span>
-					</div>
-				
-					<div>
-						<label>Preferred day of the week</label>
-						<span><input name="day[]" value="Monday" type="checkbox" /> Monday </span>
-						<span><input name="day[]" value="Tuesday" type="checkbox" /> Tuesday </span>
-						<span><input name="day[]" value="Wednesday" type="checkbox" /> Wednesday </span>
-						<span><input name="day[]" value="Thursday" type="checkbox" /> Thursday </span>
-						<span><input name="day[]" value="Friday" type="checkbox" /> Friday</span>
-					</div>
-					<div>
-						<label>Preferred time of the day</label> 
-						<span><input name="time[]" value="Morning" type="checkbox" /> Morning </span>
-						<span><input name="time[]" value="Afternoon" type="checkbox" /> Afternoon </span>
-					</div>
-				</div>				
-				<div class="inline">
-				<div>
-					<label>How did you hear about us?</label> 
-					<select name="discover"><option>Search Engine</option><option>Family/Friend</option><option>Promotion</option><option>Social Media</option><option>Other</option></select>
-				</div>			
-				<div><button class="btn">Send</button></div>
-				</div>	
-				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input name="_check" tabindex="-1" type="text" /></div>			
-				<input name="_subject" value="Appointment Request" type="hidden" /><input name="_redirect" value="thanks.html" type="hidden" />
-				</form>
-
-				<h1>Services</h1>
-				<div class="page-services">
-					<div>
-						<p><a href="">Service 1</a></p>
-						<ul>
-							<li><a href="">Service 2</a></li>
-							<li><a href="">Service 3</a></li>
-							<li><a href="">Service 4</a></li>
-						</ul>
-					</div>
-					<div>
-						<p><a href="">Service 2</a></p>
-						<ul>
-							<li><a href="">Service 2</a></li>
-							<li><a href="">Service 3</a></li>
-							<li><a href="">Service 4</a></li>
-						</ul>
-					</div>
-					<div>
-						<p><a href="">Service 3</a></p>
-						<ul>
-							<li><a href="">Service 2</a></li>
-							<li><a href="">Service 3</a></li>
-							<li><a href="">Service 4</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<h1>Office Tour</h1>
-				<div id="controls" class="tour-controls flex-ed">
-					<a href="#" id="prev"><i class="icon-angle-left"></i></a>
-					<div id="pager" class="tour-pager"></div>
-					<a href="#" id="next"><i class="icon-angle-right"></i></a>
-				</div>
-				<div class="tour cycle-slideshow"
-					data-cycle-timeout="9000"
-					data-cycle-slides=">div"
-			        data-cycle-pager=".tour-pager"
-					data-cycle-pager-template="<span></span>"
-			 		data-cycle-prev=".tour-controls #prev"
-			        data-cycle-next=".tour-controls #next"
-					>
-					<div><img src="assets/_images/officetour-1.jpg" /></div>
-					<div><img src="assets/_images/officetour-2.jpg" /></div>
-					<div><img src="assets/_images/officetour-3.jpg" /></div>
-				</div>
-				
-				<h1>Frequently Asked Questions</h1>
-				<div class="accordion">
-				<h3>
-				How often should I visit the dentist?</h3>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quas fuga commodi beatae minima maxime ex odio magni quibusdam quisquam dignissimos nihil dolorum, a sapiente sunt ea excepturi alias deserunt.</p>
-				<h3>
-				What is periodontal disease?</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque pariatur placeat repudiandae fuga officiis distinctio dolorum amet, magnam possimus eius tempora et. Quasi dolore commodi similique non. Porro sed, maiores.</p>
-				<h3>
-				Can you help if I have a dental emergency?</h3>
-				<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est asperiores magni id obcaecati eveniet eos voluptates ratione a quas vitae eum, dignissimos et earum, quos laboriosam rem, neque debitis molestias.</p>
-				</div>
-
-				<h1>PAGE DIVIDER + WHY</h1>
-				
-				<div class="why">
-				<h2>Why Choose Section</h2>
-				<ul>
-					<li>Box 1</li>
-					<li>Box 2</li>
-					<li>Box 3</li>
-				</ul>
-				</div>
-
-				<div class="page-divider">
-					<p>
-						<a name="veneers"></a></p>					
-					<h2>
-						Porcelain Veneers</h2>
-					<p>
-						<img class="elem-left" src="assets/_images/preventive-2.jpg" /></p>	
-					<p>
-						If you have chipped or cracked teeth, we&rsquo;ll be happy to cover them up with porcelain veneers! These thin shells of ceramic are tooth-shaped and are used to conceal damaged teeth and create the appearance of a beautiful, unaltered smile. This cosmetic dentistry solution.</p>		
-					<p>
-						<a name="metalfree"></a></p>
-								
-					<h2>
-						Metal-Free Restorations</h2>
-					<p>
-						<img class="elem-right" src="assets/_images/preventive-3.jpg" /></p>	
-					<p>
-						While most patients think of crowns, bridges, and other more advanced restoration solutions as purely restorative dentistry services, we can also use these restorations to improve cosmetic flaws like severe, deep-set staining, malformation, or not uniform tooth size. Our team uses the strong, tooth-colored Bruxir zirconia material to create dental crowns for many cosmetic and restorative treatments. These metal-free restorations combine the benefits of strong gold crowns and natural looking porcelain crowns. They have strength almost equal to gold crowns and a natural appearance that is comparable to porcelain.</p>
-					<p>
-						Additionally, Bruxir zirconia does not create excessive wear when meeting opposing teeth, those on the opposite arch. In addition to the improved cosmetic appearance, we also recommend Bruxir restorations for patients who have allergies or sensitivities to metal. These metal-free restorations offer safe, effective, long-lasting repair for these patients. From concealing and correcting cosmetic flaws to advanced dental restoration, Bruxir crowns allow our team to provide the best possible care to every patient we treat.</p>								
-				</div>	
-
-				<h2>Special</h2>
-				<p class="special-btn">
-					<a href=""><img src="assets/images/checkup-special.jpg" /></a>
-				</p>
-
-				<div id="special-form">
-				<form action="https://tnt-adder.herokuapp.com/submit/" class="forms" method="post">
-					<div class="limited">
-						<small>Limited Time Offer</small>
-						<span>New Patient Special</span></div>
-					<img src="assets/images/special-form.jpg" />
-					<div class="callnow">
-						<a href="tel:1">call now! (615) 302-1414</a>
-						<small>or fill out the form below</small>
-					</div>
-					<div class="fields">
-						<input name="Name" placeholder="Name (Required)" required="true" type="text" />			
-						<input name="Phone" placeholder="Phone (Required)" type="text" />
-						<input name="email" placeholder="Email (Required)" required="true" type="email" />
-					</div>
-					<button class="btn">Schedule an<br /> Appointment Today!</button>
-				
-					<input name="_subject" value="Ask the Doctor" type="hidden" />
-					<input name="_redirect" value="thanks.html" type="hidden" />
-					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="_check" tabindex="-1" value=""></div>
-				</form>	
-				<div class="special-info fields">
-					<h3>Special Heading <br /> More About Specials</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto fuga cum iste ad consequatur! Corrupti, a? Deserunt aspernatur dolorum dolore officia nostrum magni delectus ab fuga dolor. Ducimus, alias nostrum!</p>
-				</div>
-				</div>				
-				
-				<div class="more-to-explore">			
-					<span>More to Explore</span>
-					<p>
-					<a href="#" class="btn">Button 1</a>				
-					<a href="#" class="btn">Button 2</a>
-					<a href="#" class="btn">Button 3</a>				
-					<a href="#" class="btn">Button 4</a>
-					<a href="#" class="btn-alt">Button 5</a>	
-					</p>
-				</div>
-			</article>
-		</section>		
-
-
-
-		<!-- $section(above-footer)$ -->
-		<footer>			
-			<div id="fo-contents" class="flex-ed"> 
-				<form action="https://tnt-adder.herokuapp.com/submit/" class="forms" method="post">
-					<span class="fo-h3">Have Questions? <span>Get Answers.</span></span>
-					<input name="Name" placeholder="Name" required="true" type="text" />			
-					<input name="Phone" placeholder="Phone Number" type="text" />
-					<input name="email" placeholder="Email Address" required="true" type="email" />
-					<textarea name="question" class="fields" placeholder="Questions/Comments"></textarea>	
-					<button class="btn">Submit my Question</button>
-					
-					<input name="_subject" value="Ask the Doctor" type="hidden" />
-					<input name="_redirect" value="thanks.html" type="hidden" />
-					<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="_check" tabindex="-1" value=""></div>
-				</form>
-
-				<div id="fo-info">
-					<a href="tel:" class="phone">(000) 000-0000</a>										
-					<address><a href="" target="_blank">123 Avenue Ln <span>State, Zip</span></a></address>										
-					<span class="hours">
-						<span class="fo-title">Office Hours</span>					
-						<b>Monday</b> 8:00 am - 5:00 pm<br />
-						<b>Tuesday</b> 8:00 am - 5:00 pm<br />
-						<b>Wednesday</b> 8:00 am - 5:00 pm<br />
-						<b>Thursday</b> 8:00 am - 5:00 pm<br />
-						<b>Friday</b> 8:00 am - 5:00 pm
-					</span>
-
-					<span class="social">
-						<a href="" target="_blank" class="fb"><i class="icon-facebook"></i></a>
-						<a href="" target="_blank" class="gp"><i class="icon-gplus"></i></a>				
-						<a href="" target="_blank" class="yp"><i class="icon-yelp"></i></a>				
-						<a href="" target="_blank" class="tw"><i class="icon-twitter"></i></a>
-
-					</span>
-				</div>
-				<nav>
-					<span class="fo-title">Featured Services</span>
-					<ul>
-					
-					</ul>
-				</nav>				
-			</div>			
-			<div id="copy">Copyright&copy;2019  |  <a href="sitemap.html">Sitemap</a> | <a href="policy.html">Privacy Policy</a>  <span><span>|</span> Site designed and maintained by <a href="https://www.tntdental.com/" target="_blank" title="Dental Website Design">TNT Dental</a></span>							
-			</div>
-		</footer>
+			</ul>
+			</nav>				
+		</div>			
+		<div id="copy">Copyright&copy;2019  |  <a href="sitemap.html">Sitemap</a> | <a href="policy.html">Privacy Policy</a>  <span><span>|</span> Site designed and maintained by <a href="https://www.tntdental.com/" target="_blank" title="Dental Website Design">TNT Dental</a></span>							
+		</div>
+	</footer>
 	
 	<script src="assets/js/foundation.js"></script>	
 	<script src="assets/js/scripts.js"></script>
-
 </body>
 </html>
