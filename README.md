@@ -1,4 +1,4 @@
-# TNT-Template
+# TNT-Standards
 Coding Standards for TNT Websites
 
 ### HEAD HTML
