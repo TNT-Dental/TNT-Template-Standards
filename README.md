@@ -2,6 +2,9 @@
 Coding Standards for TNT Websites
 
 **Table of Contents**
+[TOCM]
+
+[TOC]
 
 ### HEAD HTML
 
