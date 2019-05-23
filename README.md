@@ -25,5 +25,10 @@ Coding Standards for TNT Websites
 </head>
 ```
 ### Header IDs & Classes
-
++ #hd-contents
++ #hd-info
+    + .phone
++ #main-nav
+    * nav
+    
 ### Footer IDs & Classes
