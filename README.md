@@ -24,10 +24,21 @@ Coding Standards for TNT Websites
 	<meta name="apple-mobile-web-app-title" content="" />
 </head>
 ```
+### Fixed Tabs
+| ID or Class | Description                    |
+| ------------- | ------------------------------ |
+| `#fixed-tabs` | Scrolling side buttons |
+| `.ra`   | For Request Appointment button |
+| `.fm`   | For Patient Forms button |
+
 ### Header
 | ID or Class | Description                    |
 | ------------- | ------------------------------ |
-| `#hd-contents` | Header container       |
-| `#hd-info`   | Header address, phone, etc + #hd-info |
+| `#hd-contents` | Header container |
+| `#hd-info`   | Header address, phone, etc |
 
 ### Footer IDs & Classes
+| ID or Class | Description                    |
+| ------------- | ------------------------------ |
+| `#fo-contents` | Footer container |
+| `#fo-info`   | Footer address, phone, etc |
