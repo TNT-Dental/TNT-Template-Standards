@@ -1,7 +1,7 @@
 # TNT-Template
 Coding Standards for TNT Websites
 
-## HEAD HTML code
+### HEAD HTML
 
 ```html
 <!DOCTYPE html>
