@@ -78,9 +78,9 @@ Coding Standards for TNT Websites
 ### Text Styles
 | ID or Class | Description                    |
 | ------------- | ------------------------------ |
-| `.h1` | Styling to look like H1s, inside can use <small>  |
-| `.h2` | Styling to look like H2s, inside can use <small>  |
-| `.h3` | Styling to look like H3s, inside can use <small>  |
+| `.h1` | Styling to look like H1s, inside can use small tag |
+| `.h2` | Styling to look like H2s |
+| `.h3` | Styling to look like H3s |
 | `.h4` | Styling for fourth text style  |
 
 
@@ -106,7 +106,7 @@ Coding Standards for TNT Websites
 ### Cycle2 Gallery
 | ID or Class | Description                    |
 | ------------- | ------------------------------ |
-| `.cycleslideshow` | Banner- first section under header |
+| `.cycleslideshow` | Cyle slideshow gallery |
 | `.controls` | Arrows and pagers container |
 | `.arrow` | For both previous and next arrow styling |
 | `#prev` | Previous arrow |
