@@ -6,6 +6,7 @@
 	<meta content="$var(metaDescription)$" name="Description" />		
 	<title>$var(pageTitle)$</title>
 	<link rel="canonical" href="http://www.$var(siteURL)$/$var(pageURL)$.html" />	
+	<link href="_ui.css" type="text/css" rel="stylesheet">	
 	<link href="styles.css" type="text/css" rel="stylesheet">	
 	<link href="https://tnt-dental.github.io/tnt-extra-icons/css/fontello.css" type="text/css" rel="stylesheet">
 	<link href="https://tntwebsites.com/tnticons/css/fontello.css" type="text/css" rel="stylesheet">		
@@ -70,6 +71,24 @@
 
 	<footer>			
 		<div id="fo-contents"> 	
+			<div id="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.9529238120745!2d-96.73763138403665!3d32.952252280919346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c23374904d86b%3A0x1d6d5ef027560e48!2sTNT+Dental!5e0!3m2!1sen!2sus!4v1542041343053" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+			</div>
+		
+			<div id="quest">
+				<div class="fo-title">Have Questions?<br> Get Answers.</div>
+				<form class="simple" method="post" action="">
+					<input type="text" name="name" required="true" placeholder="Name" />
+					<input type="email" name="email" required="true" placeholder="Email" />
+					<input type="tel" name="phone" required="true" placeholder="Phone Number" />
+					<textarea name="message" placeholder="Questions/Comments"></textarea>
+					<div style="position: absolute; left: -5000px;" aria-hidden="true">
+					<input type="text" name="_check" tabindex="-1" value=""></div>
+					<button class="btn">Submit</button>
+					<input type="hidden" name="_subject" value="Ask Us a Question." />
+					<input type="hidden" name="_redirect" value="thanks.html" />
+				</form>
+			</div>
 
 			<div id="fo-info">
 				<a href="tel:" class="phone"></a>										
@@ -77,11 +96,28 @@
 				<div class="social">
 					<a href="" target="_blank" class="fb"><i class="icon-facebook"></i></a>
 					<a href="" target="_blank" class="gp"><i class="icon-gplus"></i></a>				
-					<a href="" target="_blank" class="yp"><i class="icon-yelp"></i></a>				
-				
+					<a href="" target="_blank" class="yp"><i class="icon-yelp"></i></a>		
+					<a href="" target="_blank" class="tw"><i class="icon-twitter"></i></a>
+					<a href="" class="yt" target="_blank"><i class="icon-youtube-play"></i></a>
+					<a href="" class="in" target="_blank"><i class="icon-instagramm"></i></a>
+					<a href="" class="hl" target="_blank"><i class="icon-healthgrades"></i></a>		
 				</div>
 			</div>
 
+			<div  class="hours">
+				<span class="fo-title">Office Hours</span>
+				<p>
+				<label>Monday</label>8:00 am - 5:00 pm
+				<br />
+				<label>Tuesday</label>8:00 am - 5:00 pm
+				<br />
+				<label>Wednesday</label>8:00 am - 5:00 pm
+				<br />
+				<label>Thursday</label>8:00 am - 5:00 pm
+				<br />
+				<label>Friday</label>8:00 am - 2:00 pm
+				</p>
+			</div>
 
 
 			<nav>
