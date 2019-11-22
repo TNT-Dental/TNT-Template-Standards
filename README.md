@@ -68,11 +68,3 @@ Coding Standards for TNT Templates
 | ID or Class | Description                    |
 | ------------- | ------------------------------ |
 | `#copy` | Copyright, Sitemap, Privacy Policy, TNT Dental links |
-
-### Text Styles
-| ID or Class | Description                    |
-| ------------- | ------------------------------ |
-| `.h1` | Styling to look like H1s, inside can use small tag |
-| `.h2` | Styling to look like H2s |
-| `.h3` | Styling to look like H3s |
-| `.h4` | Styling for fourth text style  |
