@@ -53,12 +53,6 @@ Coding Standards for TNT Templates
 | `#quest`   | Have questions/get answers form |
 | `.simple`   | Basic form styles |
 
-### Hours
-| ID or Class | Description                    |
-| ------------- | ------------------------------ |
-| `#fo-contents` | Footer container |
-| `#fo-info`   | Footer address, phone, etc |
-
 ### Social Media
 | ID or Class | Description                    |
 | ------------- | ------------------------------ |
