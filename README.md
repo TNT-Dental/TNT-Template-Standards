@@ -1,5 +1,5 @@
-# TNT-Standards
-Coding Standards for TNT Websites
+# TNT Template Standards
+Coding Standards for TNT Templates
 
 ### HEAD HTML
 
